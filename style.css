@@ -1,0 +1,43 @@
+body {
+    padding: 50px;  
+    background-image: url("Background1.jpg");  
+   
+}
+
+.title {
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding-right: 5px;  
+    padding-bottom: 20px; 
+}
+
+.aboutme{
+    text-align: center;
+}
+#aboutmeTitle {
+    text-align: center;
+}
+
+.elodie {
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+#about-me {
+    display: flex;
+    text-align: left;
+}
+
+
+button {
+    background-color: Transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+

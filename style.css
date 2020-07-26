@@ -1,6 +1,7 @@
 body {
     padding: 50px;  
-    background-image: url("Background1.jpg");  
+    background: url("tech.jpg");
+    background-size: cover;  
    
 }
 
@@ -15,24 +16,34 @@ body {
     justify-content: center;
     padding-right: 5px;  
     padding-bottom: 20px; 
-}
+    flex-wrap: wrap;
+        }
 
-.aboutme{
+    a:hover {
+       background-color: blue;
+        }
+
+.aboutme {
     text-align: center;
+    
+}
+.elodie {
+    max-width:100%;
+    height: auto;
 }
 #aboutmeTitle {
-    text-align: center;
+    text-align: left;
 }
 
-.elodie {
-    box-shadow: 0 0 8px 8px white inset;
-}
 
 #about-me {
     display: flex;
     text-align: left;
-}
+    }
 
+.exp{
+    font-size: 12px;
+}
 
 button {
     background-color: Transparent;
@@ -40,4 +51,16 @@ button {
     margin-right: 5px;
 }
 
-
+@media  (max-width: 480px) { .links {
+    font-size: 3px; }
+}
+    
+@media (max-width: 500px) { .title {
+    font-size: 10px;} 
+}
+@media (max-width: 500px) { #about-me {
+    font-size: 13px;} 
+}
+@media (max-width: 500px) { .exp {
+    font-size: 10px;} 
+}

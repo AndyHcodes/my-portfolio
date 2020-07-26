@@ -20,7 +20,7 @@ body {
         }
 
     a:hover {
-       background-color: blue;
+       color: blue;
         }
 
 .aboutme {
@@ -38,12 +38,12 @@ body {
 
 #about-me {
     display: flex;
+    flex-direction: row-reverse;
     text-align: left;
     }
 
-.exp{
-    font-size: 12px;
-}
+
+
 
 button {
     background-color: Transparent;
@@ -60,7 +60,4 @@ button {
 }
 @media (max-width: 500px) { #about-me {
     font-size: 13px;} 
-}
-@media (max-width: 500px) { .exp {
-    font-size: 10px;} 
 }

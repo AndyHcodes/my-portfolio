@@ -1,0 +1,31 @@
+body {
+    padding: 50px;  
+    background: url("tech.jpg");
+    background-size: cover;      
+}
+
+header {
+    text-align: center;
+}
+
+.imagewrap {
+    display:flex;
+    justify-content: center;
+
+}
+
+.france {
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  p {
+      justify-content: center;
+      text-align: center;
+  }
+
+  .aboutmelinks {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+  }

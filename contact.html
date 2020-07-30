@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="contact.css">
-    <title>Document</title>
+   
+    <title>Contact</title>
 
 
 
 </head>
 <body>
+  
     <header class="title" id="top">
         <h1>Contact Me</h1>
                 <hr>
     </header>
+
     
-    <form action="/my-handling-form-page" method="post">
+
+    <form id="myForm" action="/my-handling-form-page" method="post">
         <ul>
-         <li>
+          <li>
+
            <label for="name">Name:</label>
            <input type="text" id="name" name="user_name">
          </li>
@@ -29,17 +34,19 @@
            <label for="msg">Message:</label>
            <textarea id="msg" name="user_message">Please enter your message here</textarea>
          </li>
-         <li class="button">
-          <button type="submit">Send your message</button>
+         <li class="button"> 
+          <button id="myBtn" type="submit">Send your message</button>        
         </li>
         <li class="button">
-          <button type="reset">Reset</button>
+          <button id="reset" type="reset">Reset</button>
+                  
         </li>
         </ul>
        </form>
 
        <footer class="contactfooter">
           <a href="index.html"><button type="button">HOME</button></a>
+          <script src="contact.js"></script>
        </footer>
 
 </body>
